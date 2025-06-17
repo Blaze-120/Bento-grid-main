@@ -1,0 +1,129 @@
+body{
+    overflow: hidden;
+}
+.container{
+    justify-self: center;
+    width: fit-content;
+    display: grid;
+    background-color:  hsl(254, 88%, 90%);
+    grid-template-columns:140px 140px 140px 140px;
+    grid-template-rows: 140px 140px 140px 140px ;
+    gap: 1rem;
+    padding: 2rem;
+    height: 440px;
+}
+div{
+    border-radius: 10px;
+    text-wrap: wrap;
+    text-align: left;
+    padding: 10px;
+    font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    
+}
+.div1{
+    background-color: pink;
+    grid-row:span 2 ;
+    font-size: 25px;
+    
+    height: 180px;
+}
+.div2{
+    background-color:  hsl(256, 67%, 59%);    
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    grid-column: span 2;
+    font-size: 22px ;
+}
+.social{
+    margin-bottom: -6px;
+}
+.div3{
+    background-color:  hsl(219, 22%, 69%);
+    grid-row: span 2;
+    overflow: hidden;
+    font-weight: bold;
+}
+.media{font-size: small;
+    margin-top: -8px;
+}
+.div4{
+    background-color: hsl(39, 100%, 71%);
+    grid-row: span 2/5;
+    margin-top: -100px;
+    height: 220px;
+
+}
+    
+.div5{
+    background-color: hsl(0, 0%, 100%);
+    overflow: hidden;
+    font-weight: bolder;
+}
+.div6{
+    background-color: hsl(39, 100%, 71%);
+    overflow: hidden;
+}
+.div7{
+    background-color: hsl(0, 0%, 100%);
+    font-size: 10px;
+}
+.pacent{
+    font-size: 30px;
+    margin-top: -14px;
+    margin-bottom: -20px;
+}
+.div8{
+    background-color:  hsl(256, 67%, 59%);
+    grid-column: span 2;
+}
+.grow{
+    color: white;
+    font-size: 20px;
+    margin-top: -125px;
+    margin-left: 150px;
+}
+.div1 img{
+    width: 100px;
+    height: 200p;
+    margin-top: -20px;
+}
+.div1 i{
+    color: hsl(256, 67%, 59%);
+}
+.div2 img{
+    width: 100px;
+    margin-bottom: -15px;
+}
+span{
+    color: hsl(39, 100%, 71%);
+}
+.pa{
+    font-size: small;
+    opacity: 0.6;
+}
+.div3 img{
+    width: 200px;
+    
+
+}
+.div4 img{
+    width: 125px;
+    height: 150px;
+}
+.div5 img{
+    width: 150px;
+}
+.div6 img{
+    width: 110px;
+}
+.div7 img{
+    margin-top: 10px;
+    width: 100px;
+}
+.div8 img{
+    width: 140px;
+    
+}
+
